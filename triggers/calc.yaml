@@ -2,9 +2,5 @@ match: ${ TRIGGER_PREFIX }calc\s(sqrt|cos|sin|[0-9+\-/\*^\. ()]+)+
 interaction:
   content: >-
     **Result:** ${
-      const sqrt = Math.sqrt;
-      const sin = Math.sin;
-      const cos = Math.cos;
-
-      eval($MATCH[0].substring(7).replaceAll('^', '**'));
+      mathjs.evaluate($MATCH[1])
     }
