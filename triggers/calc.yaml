@@ -1,4 +1,4 @@
-match: ${ TRIGGER_PREFIX }calc\s(sqrt|cos|sin|[0-9+\-/\*^\. ()]+)+
+match: ${ TRIGGER_PREFIX }calc\s(.*)$
 interaction:
   content: >-
     **Result:** ${
