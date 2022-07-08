@@ -20,6 +20,9 @@ permissions:
 
 # Only delete stuff after this line if you know what you're doing.
 modules:
+  moderation:
+    loggingChannel: "946834556630233098" # #modmail-logging channel in the test server
+
   userNotes:
     enabled: true
     permissions:
