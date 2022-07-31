@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }[yY]eow(?:\s|$)
+interaction:
+  content: "https://cdn.discordapp.com/attachments/982537464344354886/1002288605919715369/aaaaaaaaaaaaaaaa.jpg"

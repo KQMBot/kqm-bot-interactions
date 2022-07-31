@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }[nN]ot[lL]ogic(?:\s|$)
+interaction:
+  content: https://tenor.com/view/anya-anya-forger-anya-spy-x-family-spy-x-family-forger-family-gif-25680008

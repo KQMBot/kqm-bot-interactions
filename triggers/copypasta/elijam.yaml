@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }[eE]lijam(?:\s|$)
+interaction:
+  content: "https://cdn.discordapp.com/attachments/982537464344354886/997212853826232320/5E9FA013-78C8-4373-A0F9-02379AB7654E.jpg"
