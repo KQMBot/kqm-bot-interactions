@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[eE]ris)(?:\s|$)
+interaction: 
+  content: who?
