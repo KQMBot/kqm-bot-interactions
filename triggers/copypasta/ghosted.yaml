@@ -1,0 +1,3 @@
+match: ${ TRIGGER_PREFIX }(?:[gG]hosted)(?:\s|$)
+interaction: 
+  content: 'Omg, who is that?'
